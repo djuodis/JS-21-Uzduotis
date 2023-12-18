@@ -30,7 +30,6 @@ const printData = (data) => {
         <img src="${item.image}" alt="">
         <h1>${item.title}</h1>
         <span>€${item.price}</span>
-        <br>
         <button class="delete-btn" data-id="${item.id}">Ištrinti</button>
         `
 

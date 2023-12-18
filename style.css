@@ -32,6 +32,7 @@ h2{
     margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px
 }
@@ -119,3 +120,43 @@ form button {
     border: 1px solid lightgray;
 }
 
+@media (max-width: 1024px) {
+
+    .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    }
+    .card {
+        width: 150px;
+        height: 200px;
+    }
+    .card img {
+        width: 90%;
+        height: auto;
+    }
+    .card h1 {
+        font-size: 12px;
+    }
+    .card span {
+        margin: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+    /* .cards {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+    } */
+}
